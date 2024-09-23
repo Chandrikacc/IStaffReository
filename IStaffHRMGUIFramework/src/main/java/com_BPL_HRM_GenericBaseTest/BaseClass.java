@@ -20,7 +20,7 @@ import comBplHRMGenericWebdriverUtility.WebDriverUtility;
 import comBplHRMObjectRepository.HomePage;
 import comBplHRMObjectRepository.LoginPage;
 
-//@Listeners(comBplHRMGenericListenerUtility.ListenerImpClass.class)
+@Listeners(comBplHRMGenericListenerUtility.ListenerImpClass.class)
 public class BaseClass {
 	
 	public FileUtility flib=new FileUtility();
