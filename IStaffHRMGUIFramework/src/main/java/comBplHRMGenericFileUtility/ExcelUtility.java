@@ -11,7 +11,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 public class ExcelUtility {
 	
 	public String getDataFromExcel(String sheetName,int rowNum,int cellNum) throws Throwable, IOException {
-		FileInputStream fis=new FileInputStream("C:\\Oopsconcept\\IStaffHRMGUIFramework\\TestData\\TestScriptData.xlsx");
+		FileInputStream fis=new FileInputStream("C:\\Users\\whosc\\git\\repositoryForIstaff\\IStaffHRMGUIFramework\\TestData\\TestScriptData.xlsx");
 		Workbook workbook = WorkbookFactory.create(fis);
 		String data = workbook.getSheet(sheetName).getRow(rowNum).getCell(cellNum).getStringCellValue();
 		workbook.close();
