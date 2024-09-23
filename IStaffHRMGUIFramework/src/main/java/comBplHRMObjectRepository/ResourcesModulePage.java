@@ -10,8 +10,7 @@ public class ResourcesModulePage {
 		PageFactory.initElements(driver,this);
 	}
 	
-	@FindBy(xpath="//tr[@class='tr']/td[text()='Educational documents.xlsx']/following-sibling::td/a[@class='download']")
-	private WebElement downloadButton;
+	
 	
 	@FindBy(xpath="//span[text()='Upload File']")
 	private WebElement uploadButton;
@@ -37,9 +36,6 @@ public class ResourcesModulePage {
 		return deleteButton;
 	}
 
-	public WebElement getDownloadButton() {
-		return downloadButton;
-	}
 
 	public WebElement getUploadButton() {
 		return uploadButton;

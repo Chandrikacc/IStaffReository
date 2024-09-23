@@ -1,439 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-23T14:44:48 IST" name="Suite" finished-at="2024-09-23T14:49:12 IST" duration-ms="263199">
+  <suite started-at="2024-09-23T17:36:02 IST" name="Default suite" finished-at="2024-09-23T17:36:12 IST" duration-ms="9334">
     <groups>
-      <group name="systemTest">
-        <method signature="ModifyEmployeedetails_Test.modifyEmployeeDetails_Test()[pri:0, instance:comBplHrmEmployee_Test.ModifyEmployeedetails_Test@46cdf8bd]" name="modifyEmployeeDetails_Test" class="comBplHrmEmployee_Test.ModifyEmployeedetails_Test"/>
-        <method signature="UpdataePayrollDeatils_Test.updatePayrollDetailsOfEmp_Test()[pri:0, instance:comBplHrmPayroll_Test.UpdataePayrollDeatils_Test@11392934]" name="updatePayrollDetailsOfEmp_Test" class="comBplHrmPayroll_Test.UpdataePayrollDeatils_Test"/>
-        <method signature="BearerTokenGeneration_Test.toGenerateBearerToke_Test()[pri:0, instance:comBplSettings_Test.BearerTokenGeneration_Test@6d4d66d2]" name="toGenerateBearerToke_Test" class="comBplSettings_Test.BearerTokenGeneration_Test"/>
-        <method signature="ModifyEmployeedetails_Test.modifyEmployeeDetails_Test()[pri:0, instance:comBplHrmEmployee_Test.ModifyEmployeedetails_Test@72035809]" name="modifyEmployeeDetails_Test" class="comBplHrmEmployee_Test.ModifyEmployeedetails_Test"/>
-        <method signature="UpdataePayrollDeatils_Test.updatePayrollDetailsOfEmp_Test()[pri:0, instance:comBplHrmPayroll_Test.UpdataePayrollDeatils_Test@606e4010]" name="updatePayrollDetailsOfEmp_Test" class="comBplHrmPayroll_Test.UpdataePayrollDeatils_Test"/>
-        <method signature="BearerTokenGeneration_Test.toGenerateBearerToke_Test()[pri:0, instance:comBplSettings_Test.BearerTokenGeneration_Test@909217e]" name="toGenerateBearerToke_Test" class="comBplSettings_Test.BearerTokenGeneration_Test"/>
-      </group> <!-- systemTest -->
       <group name="integrationTest">
-        <method signature="DowloadResources_Test.downloadFileFromResources_Test()[pri:0, instance:comBplHrmResources_Test.DowloadResources_Test@6892b3b6]" name="downloadFileFromResources_Test" class="comBplHrmResources_Test.DowloadResources_Test"/>
-        <method signature="AssigningProjectToEmployees_Test.userShouldAbleToAssignProjectsToEmp_Test()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@2a265ea9]" name="userShouldAbleToAssignProjectsToEmp_Test" class="comBpl_ProjectTest.AssigningProjectToEmployees_Test"/>
-        <method signature="DowloadResources_Test.downloadFileFromResources_Test()[pri:0, instance:comBplHrmResources_Test.DowloadResources_Test@8458f04]" name="downloadFileFromResources_Test" class="comBplHrmResources_Test.DowloadResources_Test"/>
-        <method signature="AssigningProjectToEmployees_Test.userShouldAbleToAssignProjectsToEmp_Test()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@18271936]" name="userShouldAbleToAssignProjectsToEmp_Test" class="comBpl_ProjectTest.AssigningProjectToEmployees_Test"/>
+        <method signature="DowloadResources_Test.downloadFileFromResources_Test()[pri:0, instance:comBplHrmResources_Test.DowloadResources_Test@1a942c18]" name="downloadFileFromResources_Test" class="comBplHrmResources_Test.DowloadResources_Test"/>
       </group> <!-- integrationTest -->
-      <group name="smokeTest">
-        <method signature="DeleteProject.userShouldAbleToDeleteProject_Test()[pri:0, instance:comBpl_ProjectTest.DeleteProject@6e6f2380]" name="userShouldAbleToDeleteProject_Test" class="comBpl_ProjectTest.DeleteProject"/>
-        <method signature="ExportProject_Test.exportProjectDetailsinExcel_Test()[pri:0, instance:comBpl_ProjectTest.ExportProject_Test@76a4ebf2]" name="exportProjectDetailsinExcel_Test" class="comBpl_ProjectTest.ExportProject_Test"/>
-        <method signature="DeleteProject.userShouldAbleToDeleteProject_Test()[pri:0, instance:comBpl_ProjectTest.DeleteProject@48075da3]" name="userShouldAbleToDeleteProject_Test" class="comBpl_ProjectTest.DeleteProject"/>
-        <method signature="ExportProject_Test.exportProjectDetailsinExcel_Test()[pri:0, instance:comBpl_ProjectTest.ExportProject_Test@68c9133c]" name="exportProjectDetailsinExcel_Test" class="comBpl_ProjectTest.ExportProject_Test"/>
-      </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2024-09-23T14:44:48 IST" name="TestRunner_Chrome" finished-at="2024-09-23T14:48:49 IST" duration-ms="240495">
-      <class name="comBpl_ProjectTest.DeleteProject">
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:comBpl_ProjectTest.DeleteProject@6e6f2380]" started-at="2024-09-23T14:47:42 IST" name="configBC" finished-at="2024-09-23T14:47:44 IST" duration-ms="1785" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:comBpl_ProjectTest.DeleteProject@6e6f2380]" started-at="2024-09-23T14:47:44 IST" name="configBM" finished-at="2024-09-23T14:47:47 IST" duration-ms="2698" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="userShouldAbleToDeleteProject_Test()[pri:0, instance:comBpl_ProjectTest.DeleteProject@6e6f2380]" started-at="2024-09-23T14:47:47 IST" name="userShouldAbleToDeleteProject_Test" finished-at="2024-09-23T14:48:22 IST" duration-ms="35749" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userShouldAbleToDeleteProject_Test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:comBpl_ProjectTest.DeleteProject@6e6f2380]" started-at="2024-09-23T14:48:22 IST" name="configAM" finished-at="2024-09-23T14:48:30 IST" duration-ms="7360" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:comBpl_ProjectTest.DeleteProject@6e6f2380]" started-at="2024-09-23T14:48:30 IST" name="configAC" finished-at="2024-09-23T14:48:31 IST" duration-ms="1442" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- comBpl_ProjectTest.DeleteProject -->
-      <class name="comBpl_ProjectTest.AssigningProjectToEmployees_Test">
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@2a265ea9]" started-at="2024-09-23T14:45:50 IST" name="configBC" finished-at="2024-09-23T14:45:52 IST" duration-ms="2225" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@2a265ea9]" started-at="2024-09-23T14:45:52 IST" name="configBM" finished-at="2024-09-23T14:45:57 IST" duration-ms="4924" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="userShouldAbleToAssignProjectsToEmp_Test()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@2a265ea9]" started-at="2024-09-23T14:45:57 IST" name="userShouldAbleToAssignProjectsToEmp_Test" finished-at="2024-09-23T14:46:21 IST" duration-ms="23811" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userShouldAbleToAssignProjectsToEmp_Test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@2a265ea9]" started-at="2024-09-23T14:46:21 IST" name="configAM" finished-at="2024-09-23T14:46:28 IST" duration-ms="7367" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@2a265ea9]" started-at="2024-09-23T14:46:28 IST" name="configAC" finished-at="2024-09-23T14:46:31 IST" duration-ms="2932" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- comBpl_ProjectTest.AssigningProjectToEmployees_Test -->
+    <test started-at="2024-09-23T17:36:02 IST" name="Default test" finished-at="2024-09-23T17:36:12 IST" duration-ms="9334">
       <class name="comBplHrmResources_Test.DowloadResources_Test">
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:comBplHrmResources_Test.DowloadResources_Test@6892b3b6]" started-at="2024-09-23T14:47:19 IST" name="configBC" finished-at="2024-09-23T14:47:25 IST" duration-ms="5195" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="configBC()[pri:0, instance:comBplHrmResources_Test.DowloadResources_Test@1a942c18]" started-at="2024-09-23T17:36:02 IST" name="configBC" finished-at="2024-09-23T17:36:04 IST" duration-ms="1876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:comBplHrmResources_Test.DowloadResources_Test@6892b3b6]" started-at="2024-09-23T14:47:25 IST" name="configBM" finished-at="2024-09-23T14:47:29 IST" duration-ms="4349" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:comBplHrmResources_Test.DowloadResources_Test@1a942c18]" started-at="2024-09-23T17:36:04 IST" name="configBM" finished-at="2024-09-23T17:36:05 IST" duration-ms="1021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="downloadFileFromResources_Test()[pri:0, instance:comBplHrmResources_Test.DowloadResources_Test@6892b3b6]" started-at="2024-09-23T14:47:29 IST" name="downloadFileFromResources_Test" finished-at="2024-09-23T14:47:34 IST" duration-ms="4982" status="PASS">
+        <test-method signature="downloadFileFromResources_Test()[pri:0, instance:comBplHrmResources_Test.DowloadResources_Test@1a942c18]" started-at="2024-09-23T17:36:05 IST" name="downloadFileFromResources_Test" finished-at="2024-09-23T17:36:06 IST" duration-ms="718" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.poi.ss.usermodel.Sheet.getRow(int)" because the return value of "org.apache.poi.ss.usermodel.Workbook.getSheet(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Sheet.getRow(int)" because the return value of "org.apache.poi.ss.usermodel.Workbook.getSheet(String)" is null
+at comBplHRMGenericFileUtility.ExcelUtility.getDataFromExcel(ExcelUtility.java:16)
+at comBplHrmResources_Test.DowloadResources_Test.downloadFileFromResources_Test(DowloadResources_Test.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- downloadFileFromResources_Test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:comBplHrmResources_Test.DowloadResources_Test@6892b3b6]" started-at="2024-09-23T14:47:34 IST" name="configAM" finished-at="2024-09-23T14:47:40 IST" duration-ms="5761" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:comBplHrmResources_Test.DowloadResources_Test@1a942c18]" started-at="2024-09-23T17:36:06 IST" name="configAM" finished-at="2024-09-23T17:36:11 IST" duration-ms="5191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:comBplHrmResources_Test.DowloadResources_Test@6892b3b6]" started-at="2024-09-23T14:47:40 IST" name="configAC" finished-at="2024-09-23T14:47:42 IST" duration-ms="2428" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:comBplHrmResources_Test.DowloadResources_Test@1a942c18]" started-at="2024-09-23T17:36:11 IST" name="configAC" finished-at="2024-09-23T17:36:12 IST" duration-ms="226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
       </class> <!-- comBplHrmResources_Test.DowloadResources_Test -->
-      <class name="comBplHrmPayroll_Test.UpdataePayrollDeatils_Test">
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:comBplHrmPayroll_Test.UpdataePayrollDeatils_Test@11392934]" started-at="2024-09-23T14:46:31 IST" name="configBC" finished-at="2024-09-23T14:46:39 IST" duration-ms="7559" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:comBplHrmPayroll_Test.UpdataePayrollDeatils_Test@11392934]" started-at="2024-09-23T14:46:39 IST" name="configBM" finished-at="2024-09-23T14:46:43 IST" duration-ms="4567" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="updatePayrollDetailsOfEmp_Test()[pri:0, instance:comBplHrmPayroll_Test.UpdataePayrollDeatils_Test@11392934]" started-at="2024-09-23T14:46:43 IST" name="updatePayrollDetailsOfEmp_Test" finished-at="2024-09-23T14:47:11 IST" duration-ms="27273" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updatePayrollDetailsOfEmp_Test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:comBplHrmPayroll_Test.UpdataePayrollDeatils_Test@11392934]" started-at="2024-09-23T14:47:11 IST" name="configAM" finished-at="2024-09-23T14:47:18 IST" duration-ms="7344" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:comBplHrmPayroll_Test.UpdataePayrollDeatils_Test@11392934]" started-at="2024-09-23T14:47:18 IST" name="configAC" finished-at="2024-09-23T14:47:19 IST" duration-ms="1531" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- comBplHrmPayroll_Test.UpdataePayrollDeatils_Test -->
-      <class name="comBplHrmEmployee_Test.ModifyEmployeedetails_Test">
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:comBplHrmEmployee_Test.ModifyEmployeedetails_Test@46cdf8bd]" started-at="2024-09-23T14:44:48 IST" name="configBC" finished-at="2024-09-23T14:44:54 IST" duration-ms="5306" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:comBplHrmEmployee_Test.ModifyEmployeedetails_Test@46cdf8bd]" started-at="2024-09-23T14:44:54 IST" name="configBM" finished-at="2024-09-23T14:44:59 IST" duration-ms="5059" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="modifyEmployeeDetails_Test()[pri:0, instance:comBplHrmEmployee_Test.ModifyEmployeedetails_Test@46cdf8bd]" started-at="2024-09-23T14:44:59 IST" name="modifyEmployeeDetails_Test" finished-at="2024-09-23T14:45:30 IST" duration-ms="30817" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- modifyEmployeeDetails_Test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:comBplHrmEmployee_Test.ModifyEmployeedetails_Test@46cdf8bd]" started-at="2024-09-23T14:45:30 IST" name="configAM" finished-at="2024-09-23T14:45:35 IST" duration-ms="5196" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:comBplHrmEmployee_Test.ModifyEmployeedetails_Test@46cdf8bd]" started-at="2024-09-23T14:45:35 IST" name="configAC" finished-at="2024-09-23T14:45:35 IST" duration-ms="408" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- comBplHrmEmployee_Test.ModifyEmployeedetails_Test -->
-      <class name="comBplSettings_Test.BearerTokenGeneration_Test">
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:comBplSettings_Test.BearerTokenGeneration_Test@6d4d66d2]" started-at="2024-09-23T14:45:35 IST" name="configBC" finished-at="2024-09-23T14:45:37 IST" duration-ms="2067" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:comBplSettings_Test.BearerTokenGeneration_Test@6d4d66d2]" started-at="2024-09-23T14:45:37 IST" name="configBM" finished-at="2024-09-23T14:45:39 IST" duration-ms="2090" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="toGenerateBearerToke_Test()[pri:0, instance:comBplSettings_Test.BearerTokenGeneration_Test@6d4d66d2]" started-at="2024-09-23T14:45:39 IST" name="toGenerateBearerToke_Test" finished-at="2024-09-23T14:45:44 IST" duration-ms="4860" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- toGenerateBearerToke_Test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:comBplSettings_Test.BearerTokenGeneration_Test@6d4d66d2]" started-at="2024-09-23T14:45:44 IST" name="configAM" finished-at="2024-09-23T14:45:50 IST" duration-ms="5227" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:comBplSettings_Test.BearerTokenGeneration_Test@6d4d66d2]" started-at="2024-09-23T14:45:50 IST" name="configAC" finished-at="2024-09-23T14:45:50 IST" duration-ms="337" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- comBplSettings_Test.BearerTokenGeneration_Test -->
-      <class name="comBpl_ProjectTest.ExportProject_Test">
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:comBpl_ProjectTest.ExportProject_Test@76a4ebf2]" started-at="2024-09-23T14:48:31 IST" name="configBC" finished-at="2024-09-23T14:48:37 IST" duration-ms="5432" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:comBpl_ProjectTest.ExportProject_Test@76a4ebf2]" started-at="2024-09-23T14:48:37 IST" name="configBM" finished-at="2024-09-23T14:48:40 IST" duration-ms="3746" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="exportProjectDetailsinExcel_Test()[pri:0, instance:comBpl_ProjectTest.ExportProject_Test@76a4ebf2]" started-at="2024-09-23T14:48:40 IST" name="exportProjectDetailsinExcel_Test" finished-at="2024-09-23T14:48:43 IST" duration-ms="3030" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportProjectDetailsinExcel_Test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:comBpl_ProjectTest.ExportProject_Test@76a4ebf2]" started-at="2024-09-23T14:48:43 IST" name="configAM" finished-at="2024-09-23T14:48:49 IST" duration-ms="5177" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:comBpl_ProjectTest.ExportProject_Test@76a4ebf2]" started-at="2024-09-23T14:48:49 IST" name="configAC" finished-at="2024-09-23T14:48:49 IST" duration-ms="280" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- comBpl_ProjectTest.ExportProject_Test -->
-    </test> <!-- TestRunner_Chrome -->
-    <test started-at="2024-09-23T14:44:48 IST" name="TestRunner_Edge" finished-at="2024-09-23T14:49:12 IST" duration-ms="263199">
-      <class name="comBpl_ProjectTest.DeleteProject">
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:comBpl_ProjectTest.DeleteProject@48075da3]" started-at="2024-09-23T14:48:16 IST" name="configBC" finished-at="2024-09-23T14:48:21 IST" duration-ms="5486" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:comBpl_ProjectTest.DeleteProject@48075da3]" started-at="2024-09-23T14:48:21 IST" name="configBM" finished-at="2024-09-23T14:48:26 IST" duration-ms="4606" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="userShouldAbleToDeleteProject_Test()[pri:0, instance:comBpl_ProjectTest.DeleteProject@48075da3]" started-at="2024-09-23T14:48:26 IST" name="userShouldAbleToDeleteProject_Test" finished-at="2024-09-23T14:48:52 IST" duration-ms="26286" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userShouldAbleToDeleteProject_Test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:comBpl_ProjectTest.DeleteProject@48075da3]" started-at="2024-09-23T14:48:52 IST" name="configAM" finished-at="2024-09-23T14:48:57 IST" duration-ms="5174" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:comBpl_ProjectTest.DeleteProject@48075da3]" started-at="2024-09-23T14:48:57 IST" name="configAC" finished-at="2024-09-23T14:48:59 IST" duration-ms="1439" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- comBpl_ProjectTest.DeleteProject -->
-      <class name="comBpl_ProjectTest.AssigningProjectToEmployees_Test">
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@18271936]" started-at="2024-09-23T14:45:58 IST" name="configBC" finished-at="2024-09-23T14:46:08 IST" duration-ms="9789" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@18271936]" started-at="2024-09-23T14:46:08 IST" name="configBM" finished-at="2024-09-23T14:46:15 IST" duration-ms="6461" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="userShouldAbleToAssignProjectsToEmp_Test()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@18271936]" started-at="2024-09-23T14:46:15 IST" name="userShouldAbleToAssignProjectsToEmp_Test" finished-at="2024-09-23T14:46:39 IST" duration-ms="24678" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userShouldAbleToAssignProjectsToEmp_Test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@18271936]" started-at="2024-09-23T14:46:39 IST" name="configAM" finished-at="2024-09-23T14:46:46 IST" duration-ms="6792" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@18271936]" started-at="2024-09-23T14:46:46 IST" name="configAC" finished-at="2024-09-23T14:46:49 IST" duration-ms="3111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- comBpl_ProjectTest.AssigningProjectToEmployees_Test -->
-      <class name="comBplHrmResources_Test.DowloadResources_Test">
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:comBplHrmResources_Test.DowloadResources_Test@8458f04]" started-at="2024-09-23T14:47:51 IST" name="configBC" finished-at="2024-09-23T14:47:54 IST" duration-ms="2949" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:comBplHrmResources_Test.DowloadResources_Test@8458f04]" started-at="2024-09-23T14:47:54 IST" name="configBM" finished-at="2024-09-23T14:47:59 IST" duration-ms="4800" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="downloadFileFromResources_Test()[pri:0, instance:comBplHrmResources_Test.DowloadResources_Test@8458f04]" started-at="2024-09-23T14:47:59 IST" name="downloadFileFromResources_Test" finished-at="2024-09-23T14:48:05 IST" duration-ms="5610" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- downloadFileFromResources_Test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:comBplHrmResources_Test.DowloadResources_Test@8458f04]" started-at="2024-09-23T14:48:05 IST" name="configAM" finished-at="2024-09-23T14:48:12 IST" duration-ms="7167" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:comBplHrmResources_Test.DowloadResources_Test@8458f04]" started-at="2024-09-23T14:48:12 IST" name="configAC" finished-at="2024-09-23T14:48:16 IST" duration-ms="3524" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- comBplHrmResources_Test.DowloadResources_Test -->
-      <class name="comBplHrmPayroll_Test.UpdataePayrollDeatils_Test">
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:comBplHrmPayroll_Test.UpdataePayrollDeatils_Test@606e4010]" started-at="2024-09-23T14:46:49 IST" name="configBC" finished-at="2024-09-23T14:46:55 IST" duration-ms="5549" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:comBplHrmPayroll_Test.UpdataePayrollDeatils_Test@606e4010]" started-at="2024-09-23T14:46:55 IST" name="configBM" finished-at="2024-09-23T14:47:01 IST" duration-ms="5788" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="updatePayrollDetailsOfEmp_Test()[pri:0, instance:comBplHrmPayroll_Test.UpdataePayrollDeatils_Test@606e4010]" started-at="2024-09-23T14:47:01 IST" name="updatePayrollDetailsOfEmp_Test" finished-at="2024-09-23T14:47:43 IST" duration-ms="42729" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updatePayrollDetailsOfEmp_Test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:comBplHrmPayroll_Test.UpdataePayrollDeatils_Test@606e4010]" started-at="2024-09-23T14:47:43 IST" name="configAM" finished-at="2024-09-23T14:47:49 IST" duration-ms="5972" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:comBplHrmPayroll_Test.UpdataePayrollDeatils_Test@606e4010]" started-at="2024-09-23T14:47:49 IST" name="configAC" finished-at="2024-09-23T14:47:51 IST" duration-ms="2151" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- comBplHrmPayroll_Test.UpdataePayrollDeatils_Test -->
-      <class name="comBplHrmEmployee_Test.ModifyEmployeedetails_Test">
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:comBplHrmEmployee_Test.ModifyEmployeedetails_Test@72035809]" started-at="2024-09-23T14:44:48 IST" name="configBC" finished-at="2024-09-23T14:44:54 IST" duration-ms="5305" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:comBplHrmEmployee_Test.ModifyEmployeedetails_Test@72035809]" started-at="2024-09-23T14:44:54 IST" name="configBM" finished-at="2024-09-23T14:44:59 IST" duration-ms="5041" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="modifyEmployeeDetails_Test()[pri:0, instance:comBplHrmEmployee_Test.ModifyEmployeedetails_Test@72035809]" started-at="2024-09-23T14:44:59 IST" name="modifyEmployeeDetails_Test" finished-at="2024-09-23T14:45:30 IST" duration-ms="30960" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- modifyEmployeeDetails_Test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:comBplHrmEmployee_Test.ModifyEmployeedetails_Test@72035809]" started-at="2024-09-23T14:45:30 IST" name="configAM" finished-at="2024-09-23T14:45:35 IST" duration-ms="5397" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:comBplHrmEmployee_Test.ModifyEmployeedetails_Test@72035809]" started-at="2024-09-23T14:45:35 IST" name="configAC" finished-at="2024-09-23T14:45:37 IST" duration-ms="1779" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- comBplHrmEmployee_Test.ModifyEmployeedetails_Test -->
-      <class name="comBplSettings_Test.BearerTokenGeneration_Test">
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:comBplSettings_Test.BearerTokenGeneration_Test@909217e]" started-at="2024-09-23T14:45:37 IST" name="configBC" finished-at="2024-09-23T14:45:42 IST" duration-ms="4984" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:comBplSettings_Test.BearerTokenGeneration_Test@909217e]" started-at="2024-09-23T14:45:42 IST" name="configBM" finished-at="2024-09-23T14:45:46 IST" duration-ms="4026" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="toGenerateBearerToke_Test()[pri:0, instance:comBplSettings_Test.BearerTokenGeneration_Test@909217e]" started-at="2024-09-23T14:45:46 IST" name="toGenerateBearerToke_Test" finished-at="2024-09-23T14:45:49 IST" duration-ms="2853" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- toGenerateBearerToke_Test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:comBplSettings_Test.BearerTokenGeneration_Test@909217e]" started-at="2024-09-23T14:45:49 IST" name="configAM" finished-at="2024-09-23T14:45:55 IST" duration-ms="6645" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:comBplSettings_Test.BearerTokenGeneration_Test@909217e]" started-at="2024-09-23T14:45:55 IST" name="configAC" finished-at="2024-09-23T14:45:58 IST" duration-ms="2931" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- comBplSettings_Test.BearerTokenGeneration_Test -->
-      <class name="comBpl_ProjectTest.ExportProject_Test">
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:comBpl_ProjectTest.ExportProject_Test@68c9133c]" started-at="2024-09-23T14:48:59 IST" name="configBC" finished-at="2024-09-23T14:49:00 IST" duration-ms="1604" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:comBpl_ProjectTest.ExportProject_Test@68c9133c]" started-at="2024-09-23T14:49:00 IST" name="configBM" finished-at="2024-09-23T14:49:02 IST" duration-ms="1956" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="exportProjectDetailsinExcel_Test()[pri:0, instance:comBpl_ProjectTest.ExportProject_Test@68c9133c]" started-at="2024-09-23T14:49:02 IST" name="exportProjectDetailsinExcel_Test" finished-at="2024-09-23T14:49:03 IST" duration-ms="1357" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exportProjectDetailsinExcel_Test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:comBpl_ProjectTest.ExportProject_Test@68c9133c]" started-at="2024-09-23T14:49:03 IST" name="configAM" finished-at="2024-09-23T14:49:10 IST" duration-ms="6076" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:comBpl_ProjectTest.ExportProject_Test@68c9133c]" started-at="2024-09-23T14:49:10 IST" name="configAC" finished-at="2024-09-23T14:49:12 IST" duration-ms="2071" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- comBpl_ProjectTest.ExportProject_Test -->
-    </test> <!-- TestRunner_Edge -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

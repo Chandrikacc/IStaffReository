@@ -64,8 +64,7 @@ public class BaseClass {
 		WebElement signOutButton = hp.getSignOutButton();
 		wlib.waitForVisibilityOfElement(driver, signOutButton);
 		signOutButton.click();
-		
-		
+				
 	}
 	@AfterClass(alwaysRun = true)
 	public void configAC() {
