@@ -30,13 +30,13 @@ public class BaseClass {
 	public WebDriver driver=null;
 	
 
-	@Parameters("Browser")
+//	@Parameters("Browser")
 	@BeforeClass(alwaysRun = true)
-//	public void configBC() throws Throwable{
-	public void configBC(String browser) throws Throwable {
-	//	String Browser=System.getProperty("browser",flib.getDataFromPropertyFile("browser"));
+	public void configBC() throws Throwable{
+//	public void configBC(String browser) throws Throwable {
+		String Browser=System.getProperty("browser",flib.getDataFromPropertyFile("browser"));
 	 // String Browser=flib.getDataFromPropertyFile("browser");
-		String Browser=browser;
+	//	String Browser=browser;
 		if(Browser.equals("chrome")) {
 		 driver=new ChromeDriver();
 	}
