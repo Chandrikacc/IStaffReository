@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="systemTest"></include>
+		</run>
+	</groups>
+	<listeners>
+		<listener class-name="comBplHRMGenericListenerUtility.ListenerImpClass"></listener>		
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="comBplHrmEmployee_Test.ModifyEmployeedetails_Test"/>
+      <class name="comBplSettings_Test.BearerTokenGeneration_Test"/>
+      <class name="comBplHrmPayroll_Test.UpdataePayrollDeatils_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
