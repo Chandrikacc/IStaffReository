@@ -32,8 +32,6 @@ public class DowloadResources_Test extends BaseClass  {
 		WebElement uploadFile = ufp.getuploadFileButton();
 		wlib.waitForVisibilityOfElement(driver, uploadFile);
 		uploadFile.click();
-//		WebElement uploadFileAklertMsg = rmp.getUploadFileAlert();
-//		wlib.waitForInvisibilityOfElement(driver, uploadFileAklertMsg);
 		
 		WebElement downloadButton=driver.findElement(By.xpath("//tr[@class='tr']/td[text()='"+fileName+"']/following-sibling::td/a[@class='download']"));		
 		wlib.waitForVisibilityOfElement(driver, downloadButton);
@@ -49,8 +47,7 @@ public class DowloadResources_Test extends BaseClass  {
 		
 		
 		deleteButtonofDfPage.click();
-//		WebElement deleteFileAlert = rmp.getDeleteFileAlert();
-//		wlib.waitForInvisibilityOfElement(driver, deleteFileAlert);
+
 		UtilityClassObject.getTest().log(Status.INFO, "File is deleted");
 		
 	}
