@@ -19,8 +19,8 @@ import comBplHRMGenericWebdriverUtility.UtilityClassObject;
 
 
 public class ListenerImpClass implements ITestListener,ISuiteListener {
-	public ExtentSparkReporter spark;
-	public ExtentReports report;
+	public static ExtentSparkReporter spark;
+	public static ExtentReports report;
 	public static ExtentTest test;
 
 	public void onStart(ISuite suite) {
