@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-23T18:12:41 IST" name="Default suite" finished-at="2024-09-23T18:12:57 IST" duration-ms="16390">
+  <suite started-at="2024-09-24T18:02:35 IST" name="Default suite" finished-at="2024-09-24T18:02:49 IST" duration-ms="14461">
     <groups>
       <group name="integrationTest">
         <method signature="AssigningProjectToEmployees_Test.userShouldAbleToAssignProjectsToEmp_Test()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@1a942c18]" name="userShouldAbleToAssignProjectsToEmp_Test" class="comBpl_ProjectTest.AssigningProjectToEmployees_Test"/>
       </group> <!-- integrationTest -->
     </groups>
-    <test started-at="2024-09-23T18:12:41 IST" name="Default test" finished-at="2024-09-23T18:12:57 IST" duration-ms="16390">
+    <test started-at="2024-09-24T18:02:35 IST" name="Default test" finished-at="2024-09-24T18:02:49 IST" duration-ms="14461">
       <class name="comBpl_ProjectTest.AssigningProjectToEmployees_Test">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@1a942c18]" started-at="2024-09-23T18:12:41 IST" name="configBC" finished-at="2024-09-23T18:12:43 IST" duration-ms="2457" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@1a942c18]" started-at="2024-09-24T18:02:35 IST" name="configBC" finished-at="2024-09-24T18:02:37 IST" duration-ms="1795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@1a942c18]" started-at="2024-09-23T18:12:43 IST" name="configBM" finished-at="2024-09-23T18:12:45 IST" duration-ms="1534" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@1a942c18]" started-at="2024-09-24T18:02:37 IST" name="configBM" finished-at="2024-09-24T18:02:38 IST" duration-ms="885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="userShouldAbleToAssignProjectsToEmp_Test()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@1a942c18]" started-at="2024-09-23T18:12:45 IST" name="userShouldAbleToAssignProjectsToEmp_Test" finished-at="2024-09-23T18:12:52 IST" duration-ms="6630" status="PASS">
+        <test-method signature="userShouldAbleToAssignProjectsToEmp_Test()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@1a942c18]" started-at="2024-09-24T18:02:38 IST" name="userShouldAbleToAssignProjectsToEmp_Test" finished-at="2024-09-24T18:02:42 IST" duration-ms="4135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userShouldAbleToAssignProjectsToEmp_Test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@1a942c18]" started-at="2024-09-23T18:12:52 IST" name="configAM" finished-at="2024-09-23T18:12:57 IST" duration-ms="5316" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@1a942c18]" started-at="2024-09-24T18:02:42 IST" name="configAM" finished-at="2024-09-24T18:02:49 IST" duration-ms="7284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@1a942c18]" started-at="2024-09-23T18:12:57 IST" name="configAC" finished-at="2024-09-23T18:12:57 IST" duration-ms="377" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:comBpl_ProjectTest.AssigningProjectToEmployees_Test@1a942c18]" started-at="2024-09-24T18:02:49 IST" name="configAC" finished-at="2024-09-24T18:02:49 IST" duration-ms="313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->

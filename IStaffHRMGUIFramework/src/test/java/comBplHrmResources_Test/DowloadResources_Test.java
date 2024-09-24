@@ -47,7 +47,6 @@ public class DowloadResources_Test extends BaseClass  {
 		
 		
 		deleteButtonofDfPage.click();
-
 		UtilityClassObject.getTest().log(Status.INFO, "File is deleted");
 		
 	}

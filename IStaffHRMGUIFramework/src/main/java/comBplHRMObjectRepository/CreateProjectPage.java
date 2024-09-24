@@ -4,6 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import comBplHRMGenericFileUtility.ExcelUtility;
+import comBplHRMGenericWebdriverUtility.JavaUtility;
+import comBplHRMGenericWebdriverUtility.SelectUtility;
 
 public class CreateProjectPage {
 	public CreateProjectPage(WebDriver driver) {
@@ -41,6 +44,22 @@ public class CreateProjectPage {
 
 	public WebElement getAddProjectButton() {
 		return addProjectButton;
+	}
+	
+	public void createNewProjectWithDetails() throws Throwable{
+		ExcelUtility elib=new ExcelUtility();
+		JavaUtility jlib=new JavaUtility();
+		SelectUtility slib=new SelectUtility();
+		
+		String projectName = elib.getDataFromExcel("Project", 1, 0);
+		String projectManager = elib.getDataFromExcel("Project", 1, 1);
+		String projectStatus = elib.getDataFromExcel("Project", 1, 2);
+		String projName=projectManager+jlib.getRandomNumber();
+		getProjectNameTextField().sendKeys(projectName+jlib.getRandomNumber());
+		getProjectManagerTextField().sendKeys(projName);
+		WebElement projectStatusDropdown = getProjectStatusDropDown();
+		slib.selectByValue(projectStatusDropdown,projectStatus);
+		getAddProjectButton().click();
 	}
 	
 

@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="comBplHrmResources_Test.DowloadResources_Test">
+      <class name="comBpl_ProjectTest.DeleteProject">
         <methods>
-          <include name="downloadFileFromResources_Test"/>
           <include name="configBM"/>
           <include name="configAM"/>
           <include name="configBC"/>
           <include name="configAC"/>
+          <include name="userShouldAbleToDeleteProject_Test"/>
         </methods>
-      </class> <!-- comBplHrmResources_Test.DowloadResources_Test -->
+      </class> <!-- comBpl_ProjectTest.DeleteProject -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

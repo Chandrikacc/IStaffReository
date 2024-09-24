@@ -59,7 +59,7 @@ public class BaseClass {
 	}
 	@AfterMethod(alwaysRun = true)
 	public void configAM() throws Throwable {
-		Thread.sleep(5000);		
+		Thread.sleep(7000);		
 		HomePage hp=new HomePage(driver);
 		WebElement signOutButton = hp.getSignOutButton();
 		wlib.waitForVisibilityOfElement(driver, signOutButton);
